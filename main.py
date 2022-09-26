@@ -46,7 +46,7 @@ def exibicao_em_grafico(df):
     ax.set_xlabel('* Words longer than 3 characters',horizontalalignment='left', verticalalignment='top', labelpad=20)
     plt.ylabel('')
     ax.axis('equal')
-    ax.set_title('Most used words in Charles III discurse', fontsize=15, pad=21)
+    ax.set_title('Most used words in Charles III first speech', fontsize=15, pad=21)
     plt.tight_layout()
     plt.show()
 
